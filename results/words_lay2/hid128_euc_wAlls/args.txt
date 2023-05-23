@@ -1,0 +1,13 @@
+balancing_mode 0
+batch_size 256
+dropout .35,.3
+epochs 20
+hidden_dim 128
+inference 
+input words_euc_all_sum.npz
+latent_dim 30
+layers 2
+learning_rate 0.002
+load 
+output ./results/
+prefix euc_wAlls
